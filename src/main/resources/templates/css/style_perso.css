@@ -1,0 +1,66 @@
+#accueil{background-image: url(cochon1.jpg);}
+
+.prd{
+  width: 300px;
+  height: 200px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  position: relative;
+  transition: all 0.3S ease-in-out; /* all on va jouer sur tous les éléments 
+                      Syntaxe transition <property><duration><timing-function><delay>*/
+  overflow: hidden; /* on masque tous les élements qui sont dehors de width et height*/
+  cursor:pointer;
+  margin-top: 2px;
+ }
+ .prd:hover {
+
+   background-size: 100%;
+   transition: all 0.3S ease-in-out;
+  
+ 
+}
+
+.bg {
+
+  width: 100%;
+  height: auto;
+  padding: 0px !important;
+justify-content: center;
+overflow: hidden;     /* enleve tout le depassement de la page */
+align-items: center;
+}
+
+.banner{
+  background: rgba(255,255,255,0.9);
+  position: absolute;
+  bottom: -50px;
+  left: 0px;
+  width: 100%;
+  text-transform: uppercase;
+  color:#fa8746;
+  font-weight: bold;
+  padding: 10px;
+  /*display: none;*/
+ 
+ }
+
+
+.prd:hover .banner{
+  bottom: 0px;
+  transition: all 0.5S ease-in-out;
+
+  /*visibility: visible;
+  display: block;*/
+}
+
+
+.bg{
+
+  width: 100%;
+  height: auto;
+  padding: 0px !important;
+justify-content: center;
+overflow: hidden;     /* enleve tout le depassement de la page */
+align-items: center;
+}
